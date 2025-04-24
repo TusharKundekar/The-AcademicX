@@ -1,0 +1,275 @@
+body {
+    background-color: rgb(248, 249, 250);
+}
+
+.main-title {
+    color: #f4694c;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.semester-header {
+    background-color: #f4694c;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.subject-item {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.puc-card:hover {
+    transform: translateY(-5px);
+}
+
+.first-puc {
+    background: linear-gradient(135deg, #ffe5d9 0%, #ffd1dc 100%);
+}
+
+.second-puc {
+    background: linear-gradient(135deg, #f5ecff 0%, #f0e2ff 100%);
+}
+.th-puc {
+    background: linear-gradient(135deg, #fdffed 0%, #f8ffba 100%);
+}
+
+.subject-item:hover {
+    background-color: #f8f9fa;
+}
+
+
+
+
+.arrow {
+    transition: transform 0.3s;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
+:root {
+    --primary-color: #292929;
+    --card-degree: #f8f0ff;
+    --card-competitions: #fff0f0;
+    --card-resume: #ffe8ee;
+}
+
+.navbar{
+    position: static;
+}
+body,
+section {
+    background-color: #f3feff;
+}
+
+.card-qp {
+    background-color: #fffee8;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.hero-section {
+    padding: 80px 0;
+    background-color: #f3feff;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.custom-navbar {
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 175px 175px;
+    /* Lower corners rounded */
+    padding: 10px 20px;
+}
+
+.card-custom {
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px) !important;
+}
+.card-degree {
+    background-color: var(--card-degree);
+}
+
+.card-competitions {
+    background-color: var(--card-competitions);
+}
+
+.card-resume {
+    background-color: var(--card-resume);
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #e67e22;
+}
+
+.btn-custom {
+    border-radius: 20px;
+    padding: 8px 24px;
+    background-color: white;
+    border: 1px solid #ddd;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.btn-custom:hover {
+    border-radius: 20px;
+    background-color: #272727 !important;
+    color: white !important;
+    border-color: #272727 !important;
+    cursor: pointer;
+}
+
+
+.upload-section {
+    background-color: #f3feff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0 0 0;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #ff6b4a;
+}
+
+.click-more {
+    color: #ff6b4a;
+    text-decoration: none;
+}
+
+.subscribe-btn {
+    background-color: #ff6b4a;
+    border: none;
+    padding: 8px 20px;
+}
+
+.subscribe-btn:hover {
+    background-color: #ff5533;
+}
+
+.copyright {
+    background-color: #000;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff6b4a;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+.puc-card {
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.puc-card:hover {
+    transform: translateY(-5px);
+}
+
+.first-puc {
+    background: linear-gradient(135deg, #ffe5d9 0%, #ffd1dc 100%);
+}
+
+.second-puc {
+    background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%);
+}
+
+.click-btn {
+    background: white;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 24px;
+    color: #333;
+    font-weight: 500;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    color: white;
+}
+
+.linkedin { background: #0077b5; }
+.telegram { background: #0088cc; }
+.whatsapp { background: #25D366; }
+.email { background: #333; }

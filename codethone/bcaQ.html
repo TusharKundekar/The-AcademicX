@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Creative Info - Educational Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .subject-container {
+            margin-bottom: 10px;
+        }
+
+        .subject-item {
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .pdf-links {
+            display: none;
+            margin-left: 20px;
+            padding-top: 5px;
+        }
+
+        .pdf-links a {
+            display: block;
+            color: #e44d26;
+            /* Orange color */
+            text-decoration: none;
+            font-size: 16px;
+            margin: 3px 0;
+        }
+
+        .arrow {
+            font-size: 16px;
+            transition: transform 0.3s;
+        }
+
+        .rotated {
+            transform: rotate(180deg);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"><img class="logo" src="logo.png" height="120px"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" role="button" aria-expanded="false">
+                            HOME
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="pucDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PUC
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pucDropdown">
+                                <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                <li><a class="dropdown-item" href="#">Option 2</a></li>
+                            </ul>
+                        </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="degree.html" id="degreeDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            DEGREE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="degreeDropdown">
+                            <li><a class="dropdown-item" href="bca.html">BCA</a></li>
+                            <li><a class="dropdown-item" href="bsc.html">BSC</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- <li class="nav-item">
+                            <a class="nav-link" href="#" id="libraryDropdown" role="button"
+                            aria-expanded="false">
+                                LIBRARY
+                            </a>
+                        </li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html" role="button" aria-expanded="false">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html" role="button" aria-expanded="false">
+                            CONTACT US
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body>
+
+        <div class="container py-4">
+            <h1 class="main-title">(Bachelor of Computer Applications)</h1>
+            <h2 class="text-center mb-4">Previous & Current Year Notes</h2>
+            <h3 class="text-center mb-5" style="color: #f4694c;">(CBCS & NEP Perious Year Notes)</h3>
+
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-12">
+                    <div class="semester-header">
+                        1 Sem NEP & CBCS
+                    </div>
+                    <div class="subjects-list">
+                        <!-- <div class="subject-item">
+                                C Programming
+                                <span class="arrow">›</span> 
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Download Notes</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Download Question Papers</a>
+                                </div>
+                            </div> -->
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">C Programming</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Computer Fundamentals</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Accounts</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Mathematics</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">English</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Hindi</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Kannada</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">DF (Digital Fluency)</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Personality Development</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Entrepreneurship Development</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Environment Studies</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                    </div>
+                
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-12">
+                    <div class="semester-header">
+                        2 Sem NEP & CBCS
+                    </div>
+                    <div class="subjects-list">
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Java</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Data Structure</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Event Management</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title"> Discrete Mathematics</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">English</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Hindi</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">Kannada</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+                        <div class="subject-container">
+                            <div class="subject-item">
+                                <span class="subject-title">DF (Digital Fluency)</span>
+                                <span class="arrow">▲</span>
+                            </div>
+                            <div class="pdf-links">
+                                <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-lg-12">
+                <div class="semester-header">
+                    3 Sem NEP & CBCS
+                </div>
+                <div class="subjects-list">
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title">Discrete Mathametics</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title">DBMS</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title">.Net Framework C#</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title"> Entrepreneurship skills</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title">English</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title">Hindi</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+                    <div class="subject-container">
+                        <div class="subject-item">
+                            <span class="subject-title">Kannada</span>
+                            <span class="arrow">▲</span>
+                        </div>
+                        <div class="pdf-links">
+                            <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                            <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                            <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <!-- Main Content -->
+                    <div class="col-lg-12">
+                        <div class="semester-header">
+                            4 Sem NEP & CBCS
+                        </div>
+                        <div class="subjects-list">
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Python</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Computer Networks</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">English</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title"> Multimedia animation</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Hindi</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">kannada</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Open Source Tool</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <!-- Main Content -->
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">R Programming</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Cyber Security</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Digital Marketing</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title"> DAA</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">ISC</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <!-- Main Content -->
+                        <div class="col-lg-12">
+                            <div class="semester-header">
+                                6 Sem NEP & CBCS
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Cyber Security</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Artificial Intelligence</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title"> PHP</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title">Web Content Management</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                            <div class="subject-container">
+                                <div class="subject-item">
+                                    <span class="subject-title"> Projects</span>
+                                    <span class="arrow">▲</span>
+                                </div>
+                                <div class="pdf-links">
+                                    <a href="/uploads/Chapter1.pdf" target="_blank">Chapter1</a>
+                                    <a href="/uploads/Chapter2.pdf" target="_blank">Chapter2</a>
+                                    <a href="/uploads/Chapter3.pdf" target="_blank">Chapter3</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Pages Section -->
+                            <div class="col-md-4">
+                                <h3>PAGES</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>PUC</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Degree</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Mock Tests</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Competitions</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Books & PDFs</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Help Section -->
+                            <div class="col-md-4">
+                                <h3>HELP</h3>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>FAQ</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>About Us</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Contact Us</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Privacy Policy</a></li>
+                                    <li><a href="#"><i class="fas fa-chevron-right me-2"></i>Terms & Condition</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- About Us Section -->
+                            <div class="col-md-4">
+                                <h3>ABOUT US</h3>
+                                <p>Whether you're a student preparing for exams, an educator seeking teaching aids, or
+                                    simply
+                                    someone passionate about learning, Our Creative Info is here to support you. Explore
+                                    our
+                                    resources today and embark on a path to success! <a href="#"
+                                        class="click-more">Click
+                                        More.</a></p>
+                            </div>
+
+                            <!-- Subscribe Section -->
+
+                        </div>
+                    </div>
+
+                    <!-- Copyright Section -->
+                    <div class="copyright">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                </div>
+                                <div class="col-md-6 text-end social-icons">
+                                    <a href="#"><i class="fab fa-telegram"></i></a>
+                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <script>
+                    document.querySelectorAll('.subject-item').forEach(item => {
+                        item.addEventListener('click', () => {
+                            const arrow = item.querySelector('.arrow');
+                            arrow.classList.toggle('rotated');
+
+                            // Here you can add logic to show/hide subject content
+                            // For example:
+                            // const content = item.nextElementSibling;
+                            // content.style.display = content.style.display === 'none' ? 'block' : 'none';
+                        });
+                    });
+
+
+                    document.querySelectorAll('.subject-item').forEach(item => {
+                        item.addEventListener('click', () => {
+                            const arrow = item.querySelector('.arrow');
+                            arrow.classList.toggle('rotated');
+
+                            // Toggle visibility of PDF links
+                            const pdfLinks = item.nextElementSibling;
+                            pdfLinks.style.display = pdfLinks.style.display === 'block' ? 'none' : 'block';
+                        });
+                    });
+
+
+                </script>
+    </body>
+
+</body>
+
+</html>
