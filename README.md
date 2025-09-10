@@ -50,3 +50,4 @@ Business Impact & Insights
 💡 Focused on increasing academic success and career opportunities
 
 6. Screenshots / Demo Preview
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo%20Of%20AcademicX.jpg)
