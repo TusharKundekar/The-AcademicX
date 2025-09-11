@@ -51,3 +51,8 @@ Business Impact & Insights
 
 6. Screenshots / Demo Preview
 ![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo2%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo3%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo4%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo5%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo6%20Of%20AcademicX.jpg)
