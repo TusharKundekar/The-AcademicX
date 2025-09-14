@@ -1,5 +1,10 @@
 #The AcademicX - Learning Resource Hub
-
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo2%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo3%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo4%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo5%20Of%20AcademicX.jpg)
+![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo6%20Of%20AcademicX.jpg)
 📚 The AcademicX: Empowering Student Success
 An interactive web platform designed to support BCA and BSc students by providing easy access to study materials, previous year question papers, and professional resume templates for exam preparation and career growth.
 
@@ -48,11 +53,3 @@ Business Impact & Insights
 📑 Provides high-quality study materials in one place
 🚀 Helps students build professional resumes for job readiness
 💡 Focused on increasing academic success and career opportunities
-
-6. Screenshots / Demo Preview
-![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo%20Of%20AcademicX.jpg)
-![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo2%20Of%20AcademicX.jpg)
-![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo3%20Of%20AcademicX.jpg)
-![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo4%20Of%20AcademicX.jpg)
-![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo5%20Of%20AcademicX.jpg)
-![Dashboard Preview](https://github.com/TusharKundekar/The-AcademicX/blob/main/Snapshot%20Demo6%20Of%20AcademicX.jpg)
